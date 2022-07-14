@@ -1,5 +1,5 @@
-#Popular interview problem
-#The Fizzbuzz game
+# Popular interview problem
+# The Fizzbuzz game
 
 for number in range(1, 101):
     if number % 15 == 0:
@@ -8,8 +8,5 @@ for number in range(1, 101):
         number = "Fizz"
     elif number % 5 == 0:
         number = "Buzz"
-  
-    
 
     print(number)
-

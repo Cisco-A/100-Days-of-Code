@@ -3,6 +3,7 @@ import random
 
 names_string = input("Give me everybody's name, seperated by a comma. ")
 names = names_string.split(", ")
+print(names)
 
 #Get the total number of items in the list and add to the random function
 length = len(names)
